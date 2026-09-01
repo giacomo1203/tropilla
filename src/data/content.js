@@ -60,7 +60,7 @@ export const FILMS_DATA = {
     logline: "Cuando se unen lazos, la maldición se rompe",
     synopsis: "Huérfana y decidida a descubrir la verdad sobre su madre, Cela viaja a un remoto paraje de los Andes peruanos, donde su bisabuela Akisha sobrevive bajo una antigua maldición.\nSu llegada despierta a los Nampaturus, espíritus malignos que poseen a niños y desatan el terror en la comunidad.\nMientras el mal las acecha, Cela deberá aferrarse a la fe que tiene su bisabuela en la Madre Apu, la única Deidad capaz de romper el ciclo de muerte, miedo y dolor que persigue a su familia.",
     poster: "/assets/poster-nampaturus.webp",
-    trailerUrl: "https://www.youtube.com/embed/l3CBK02EmXw", // Link del Teaser
+    trailerUrl: "https://www.youtube.com/embed/FLxuF0ZWemI", // Link del Teaser
     movieLink: "/assets/dossier.pdf",
     movieLinkLabel: "DOSSIER CINEMATOGRÁFICO",
     movieLinkDetail: "Ficha técnica, sinopsis y material gráfico oficial.",
