@@ -8,15 +8,15 @@ export const ABOUT_DATA = {
   team: [
     {
       name: "Nataly Aures",
-      role: "Productora & Realizadora",
+      role: "Directora, guionista y productora",
       photo: "/assets/naures.webp", // Coloca la foto en tu carpeta public/assets/
-      bio: "Biofilmografía de Nataly Aures... (Agregar biografía aquí)"
+      bio: "Actriz, guionista, directora y productora peruana vinculada al cine independiente. Ha participado como actriz principal en la película peruana “Naira” (2024) y como actriz y jefa de producción en la premiada película “Mataindios” (2017) reconocida en festivales nacionales e internacionales.\nComo guionista, directora y productora desarrolla el largometraje “Nampaturus”. Fue seleccionada al taller de guion del MINCUL (2021) y al Warmi Lab del MAFIZ – Festival de Málaga (2023). Su trayectoria integra actuación, creación audiovisual, producción cinematográfica y representación del cine peruano en espacios internacionales."
     },
     {
       name: "Oscar Sánchez",
-      role: "Director & Guionista",
+      role: "Director, guionista y productor",
       photo: "/assets/osanchez.webp", // Coloca la foto en tu carpeta public/assets/
-      bio: "Biofilmografía de Oscar Sánchez... (Agregar biografía aquí)"
+      bio: "Licenciado en Educación Artística. Complementó su formación con estudios de posgrado. Ha fortalecido su perfil audiovisual mediante programas de especialización cinematográfica en Perú, Chile y Argentina, destacando su selección en Talents Buenos Aires de la Berlinale y su formación con reconocidos cineastas como Béla Tarr, Pablo Stoll y Armando Robles Godoy. Su trabajo articula pedagogía y creación audiovisual, explorando la memoria y la identidad cultural. Entre sus obras cinematográficas destaca la película “Nampaturus” (proyecto actual) y “Mataindios” reconocido con siete premios internacionales y tres nacionales, entre ellos el galardón a Mejor Película Peruana del 2018."
     }
   ]
 };
@@ -26,10 +26,12 @@ export const FILMS_DATA = {
     id: "mataindios",
     title: "MATAINDIOS",
     logline: "Patroncito se habrá quedado dormido",
-    synopsis: "Sinopsis corta de Mataindios...",
+    synopsis: "En las alturas de un pueblo andino, sus habitantes organizan una festividad en honor a su Santo Patrón para dar fin al dolor que cargan por sus familiares muertos.\nSin embargo, un inesperado accidente les indica un mal augurio generando en ellos fuertes dudas con respecto a la voluntad del Patrón de querer calmar sus pesares.",
     poster: "/assets/poster-mataindios.webp",
     trailerUrl: "https://www.youtube.com/embed/l3CBK02EmXw", // Reemplazar con el link embed real
-    movieLink: "https://vimeo.com/ondemand/mataindios", // Link para ver o alquilar la película
+    movieLink: "https://vimeo.com/553533397", // Link para ver o alquilar la película
+    movieLinkLabel: "VER PELÍCULA COMPLETA ",
+    movieLinkDetail: "Película disponible para visionado en línea. Password: Tropillade",
     technicalSheet: {
       direccion: "Oscar Sánchez & Nataly Aures",
       guion: "Oscar Sánchez",
@@ -56,10 +58,12 @@ export const FILMS_DATA = {
     id: "nampaturus",
     title: "NAMPATURUS",
     logline: "Cuando se unen lazos, la maldición se rompe",
-    synopsis: "Sinopsis corta de Nampaturus...",
+    synopsis: "Huérfana y decidida a descubrir la verdad sobre su madre, Cela viaja a un remoto paraje de los Andes peruanos, donde su bisabuela Akisha sobrevive bajo una antigua maldición.\nSu llegada despierta a los Nampaturus, espíritus malignos que poseen a niños y desatan el terror en la comunidad.\nMientras el mal las acecha, Cela deberá aferrarse a la fe que tiene su bisabuela en la Madre Apu, la única Deidad capaz de romper el ciclo de muerte, miedo y dolor que persigue a su familia.",
     poster: "/assets/poster-nampaturus.webp",
     trailerUrl: "https://www.youtube.com/embed/l3CBK02EmXw", // Link del Teaser
-    movieLink: null,
+    movieLink: "/assets/dossier.pdf",
+    movieLinkLabel: "DOSSIER CINEMATOGRÁFICO",
+    movieLinkDetail: "Ficha técnica, sinopsis y material gráfico oficial.",
     technicalSheet: {
       direccion: "Oscar Sánchez & Nataly Aures",
       produccion: "La Tropilla de Obrajeros EIRL",

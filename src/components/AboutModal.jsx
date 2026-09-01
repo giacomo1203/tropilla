@@ -19,7 +19,7 @@ const AboutModal = ({ isOpen, onClose }) => {
           {/* 3. Header STICKY: El botón de cerrar SIEMPRE se queda arriba a la vista */}
           <div className="sticky top-0 z-20 flex items-center justify-between px-6 py-4 bg-neutral-950/95 backdrop-blur-md border-b border-neutral-800 shrink-0">
             <div>
-              <span className="text-amber-500 text-[10px] sm:text-xs tracking-widest block">
+              <span className="text-amber-500 text-[10px] sm:text-xs tracking-widest block text-left">
                 CASA PRODUCTORA DESDE {ABOUT_DATA.since}
               </span>
               <h2 className="font-display text-lg sm:text-2xl font-black text-white tracking-widest uppercase">
@@ -41,7 +41,7 @@ const AboutModal = ({ isOpen, onClose }) => {
           <div className="p-6 md:p-8 overflow-y-auto space-y-6">
             
             {/* Actividad */}
-            <p className="text-xs text-neutral-400 font-sans -mt-2">
+            <p className="text-xs text-neutral-400 font-sans -mt-2 mb-8">
               {ABOUT_DATA.activity}
             </p>
 
@@ -126,7 +126,7 @@ const AboutModal = ({ isOpen, onClose }) => {
                     <p className="text-amber-500 text-xs">{selectedBio.role}</p>
                   </div>
                 </div>
-                <p className="text-xs text-neutral-300 font-sans leading-relaxed">{selectedBio.bio}</p>
+                <p style={{ whiteSpace: 'pre-line' }} className="text-xs text-neutral-300 font-sans leading-relaxed">{selectedBio.bio}</p>
               </div>
             </div>
           )}

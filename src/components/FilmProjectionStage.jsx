@@ -31,7 +31,7 @@ const FilmProjectionStage = ({ isOpen, onClose, film }) => {
                 rel="noopener noreferrer"
                 className="hidden sm:flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-xs font-bold tracking-widest transition rounded-sm"
               >
-                VER PELÍCULA COMPLETA <ExternalLink size={14} />
+                {film.movieLinkLabel} <ExternalLink size={14} />
               </a>
             )}
             <button onClick={onClose} className="p-2 text-neutral-400 hover:text-white rounded-full bg-neutral-900">
@@ -64,7 +64,7 @@ const FilmProjectionStage = ({ isOpen, onClose, film }) => {
                   </blockquote>
 
                   <span className="text-neutral-500 text-xs tracking-widest block pt-2">SINOPSIS CORTA</span>
-                  <p className="text-sm text-neutral-300 font-sans leading-relaxed">
+                  <p style={{ whiteSpace: 'pre-line' }} className="text-sm text-neutral-300 font-sans leading-relaxed">
                     {film.synopsis}
                   </p>
                 </div>
@@ -72,7 +72,7 @@ const FilmProjectionStage = ({ isOpen, onClose, film }) => {
                 {film.movieLink && (
                   <div className="flex flex-col justify-center items-center p-6 bg-neutral-900/50 border border-neutral-800 text-center rounded">
                     <p className="text-xs text-neutral-400 mb-4 font-sans">
-                      Película disponible para visionado en línea.
+                      {film.movieLinkDetail}
                     </p>
                     <a
                       href={film.movieLink}
@@ -80,7 +80,7 @@ const FilmProjectionStage = ({ isOpen, onClose, film }) => {
                       rel="noopener noreferrer"
                       className="w-full py-3 bg-red-600 hover:bg-red-700 text-white text-xs font-bold tracking-widest transition text-center"
                     >
-                      LINK DE PELÍCULA
+                      {film.movieLinkLabel}
                     </a>
                   </div>
                 )}
