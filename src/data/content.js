@@ -33,8 +33,8 @@ export const FILMS_DATA = {
     movieLinkLabel: "VER PELÍCULA COMPLETA ",
     movieLinkDetail: "Película disponible para visionado en línea. Password: Tropillade",
     technicalSheet: {
-      direccion: "Oscar Sánchez & Nataly Aures",
-      guion: "Oscar Sánchez",
+      direccion: "Oscar Sánchez & Robert Julca",
+      guion: "Oscar Sánchez & Robert Julca",
       produccion: "La Tropilla de Obrajeros EIRL",
       duracion: "76 min",
       pais: "Perú"
